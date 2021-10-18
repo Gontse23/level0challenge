@@ -1,0 +1,6 @@
+first_string = input("string1:")
+second_string= input("string2:")
+st1=set(first_string)
+st2=set(second_string)
+both= (st1 & st2)
+print("common letters: {}".format(both))
