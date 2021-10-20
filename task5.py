@@ -1,6 +1,6 @@
-a = float(input('Enter first side: '))
-b = float(input('Enter second side: '))
-c = float(input('Enter third side: '))
+a = float(15)
+b = float(14)
+c = float(12)
 
 x = (a + b + c) / 2
 

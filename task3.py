@@ -1,4 +1,4 @@
-def say_hello(name):
-	name =input("what is your name?")
-	if name ==input(name):
-		return("hello"+name+"!")
+def hello(name): 
+	return 'Hello ' + name +'!'
+
+print(hello("Gontse")) 

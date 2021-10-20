@@ -1,4 +1,4 @@
-time = float(input("time in minutes:"))
+time = float(120)
 hour=time//60
 time%=60
 minutes = time//60 
