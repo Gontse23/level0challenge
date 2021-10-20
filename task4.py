@@ -1,6 +1,6 @@
-even_or_odd = int(8)
-num = even_or_odd % 2
-if num > 0:
-    print("odd")
-else:
-    print("even")
+def even_or_odd(x):
+    if x % 2== 0:
+        print("number",x,"is even")
+    elif x % 2== 1:
+        print("number",x,"is odd")
+even_or_odd(5)

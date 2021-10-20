@@ -1,8 +1,8 @@
 x = 0
 y = 1
-Print(x)
-Print(y)
+print(x)
+print(y)
 x = x + 3
 y = y + x
-Print(x)
+print(x)
 print(y)
