@@ -1,10 +1,16 @@
-a= int(input('enter first number:'))
-b= int(input('enter second number:'))
-c= int(input('enter third number:'))
-if a>b and a>c
-	max=a
-elif b>a and b>c 
-	max=b
-else:
-	max = c
-print("maximum number is{}".format(max))
+def max(a, b, c):
+  
+    if (a >= b) and (a >= c):
+        largest = a
+  
+    elif (b >= a) and (b >= c):
+        largest = b
+    else:
+        largest = c
+          
+    return largest
+
+a = 15
+b = 128
+c = 18
+print(max(a, b, c))
