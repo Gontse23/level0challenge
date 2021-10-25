@@ -10,6 +10,7 @@ def common_char(str1,str2):
         return "none"
 
 str1="Umuzi"
-str2="umula"
+str2="umulza"
 common_letters=common_char(str1,str2)
-print("Common letters:"+ common_letters)
+a=",".join(common_letters)
+print("Common letters:"+ a)
