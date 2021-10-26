@@ -1,16 +1,10 @@
-def common_char(str1,str2):
-    str=""
-    for i in str1.lower():
-        if i in str2.lower():
-            if i not in str:
-                str=str+i
-    if(str):
-        return str.replace(" ","")
-    else:
-        return "none"
-
-str1="Umi"
-str2="Umla"
-common_letters=common_char(str1,str2)
-a=", ".join(common_letters)
-print("Common letters:"+ a)
+def common_letters(str1,str2):
+    result=''
+    for x in str1.lower():
+        for y in str2.lower():
+            if x ==y and x not in result:
+                result +=x
+    return 'Common Letters:' + ", ".join(result)
+str1= "gOntse"
+str2="fOuntsd"
+print(common_char(str1,str2))

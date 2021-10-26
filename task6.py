@@ -1,4 +1,4 @@
-def max(a, b, c):
+def maximum(a, b, c):
   
     if (a >= b) and (a >= c):
         largest = a
@@ -13,4 +13,4 @@ def max(a, b, c):
 a = 15
 b = 128
 c = 18
-print(max(a, b, c))
+print(maximum(a, b, c))
