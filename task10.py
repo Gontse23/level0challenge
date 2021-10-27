@@ -7,4 +7,4 @@ def common_letters(str1,str2):
     return 'Common Letters:' + ", ".join(result)
 str1= "gOntse"
 str2="fOuntsd"
-print(common_char(str1,str2))
+print(common_letters(str1,str2))
